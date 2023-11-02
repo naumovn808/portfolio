@@ -1,0 +1,20 @@
+/* Tablet */
+@media (max-width: 1199px) {
+  .container {
+    width: 899px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 999px) {
+  .container {
+    width: 629px;
+  }
+}
+
+/* Mobile XS */
+@media (max-width: 699px) {
+  .container {
+    width: 350px;
+  }
+}

@@ -1,0 +1,26 @@
+// Mixin variable in url for image
+@mixin bg-image ($name-url) {
+  background-image: url($name-url);
+  background-position: center;
+  background-size: cover;
+}
+
+// Mixin for links
+@mixin links ($link, $visited, $hover, $active) {
+  & {
+    color: $link;
+
+    &:visited {
+      color: $visited;
+    }
+
+    &:hover {
+      color: $hover;
+    }
+
+    &:active,
+    &:focus {
+      color: $active;
+    }
+  }
+}

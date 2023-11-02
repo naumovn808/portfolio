@@ -1,0 +1,64 @@
+// Colors
+$bgColor: #1B1A17;
+$bgLightColor: #242320;
+$txtColor: #F0E3CA;
+$txtAccent: #FF8303;
+$btnColor: rgb(33, 32, 32);
+$txtColorGray: #8f8f8f;
+$cardOverlay: rgba(36, 35, 32, 0.93);
+
+
+// Text content
+$ffTxt: 'JetBrains Mono', monospace;
+$fzTxt: 20rem;
+$fwTxt: 200;
+$lhTxt: 1.6;
+
+// H1 Title
+$ffH1: 'Inconsolata', monospace;
+$fzH1: 64rem;
+$fwH1: 900;
+$lhH1: 1;
+
+
+// Sub-title
+$ffSbTitle: 'Inconsolata', monospace;
+$fzHSbTitle: 40rem;
+$fwHSbTitle: 700;
+$lhSbTitle: 1;
+
+// H2 Title
+$ffH2: 'Inconsolata', monospace;
+$fzH2: 48rem;
+$fwH2: 700;
+$lhH2: 1;
+
+// H3 Title
+$ffH3: 'Inconsolata', monospace;
+$fzH3: 36rem;
+$fwH3: 700;
+$lhH3: 1;
+
+
+
+// lines
+$linWidth: 20px;
+$lineHeight: 4px;
+$borderRadius: 3px;
+
+//::hover
+// $HoverBgColor: #ffffff;
+$hoverIconHtml: #FC490B;
+$hoverIconJS: #FFDF00;
+$hoverIconCss: #2196F4;
+$hoverIconGit: #F25234;
+$hoverIconScss: #CA669B;
+$hoverIconReact: #00d8fe;
+
+// Ширина и высота линий
+$linWidth: 30px;
+$lineHeight: 5px;
+
+// Ширина контейнера
+$width: $linWidth;
+$height: $lineHeight * 5;

@@ -1,0 +1,183 @@
+/* Reset and base styles  */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  /* sticky footer */
+  height: 100%;
+  font-size: 1px;
+  scroll-behavior: smooth;
+}
+
+// font-family: 'Inconsolata',monospace;
+// font-family: 'JetBrains Mono',monospace;
+
+.logo-image {
+  height: 30rem;
+}
+
+.text {
+  font-family: $ffTxt;
+  font-size: $fzTxt;
+  font-weight: $fwTxt;
+  line-height: $lhTxt;
+}
+
+.btn {
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 14px 38px;
+  border-radius: 4px;
+  background: $btnColor;
+  font-size: 14px;
+  color: $txtColor;
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+.h1 {
+  font-family: $ffH1;
+  font-size: $fzH1;
+  font-weight: $fwH1;
+  line-height: $lhH1;
+  color: $txtAccent;
+}
+
+.h2 {
+  font-family: $ffH2;
+  font-size: $fzH2;
+  font-weight: $fwH2;
+  line-height: $lhH2;
+  color: $txtAccent;
+}
+
+.h3 {
+  font-family: $ffH3;
+  font-size: $fzH3;
+  font-weight: $fwH3;
+  line-height: $lhH3;
+  color: $txtAccent;
+  text-transform: uppercase;
+}
+
+body {
+  position: relative;
+  /* sticky footer */
+  // height: 100%;
+  /* sticky footer */
+  display: flex;
+  /* sticky footer */
+  flex-direction: column;
+  margin: 0;
+
+  background: $bgColor;
+  font-family: $ffTxt;
+  font-size: $fzTxt;
+  font-weight: $fwTxt;
+  color: $txtColor;
+  line-height: $lhTxt;
+}
+
+body>* {
+  /* sticky footer */
+  flex-shrink: 0;
+}
+
+body.noscroll {
+  overflow: hidden;
+}
+
+.footer {
+  /* sticky footer */
+  margin-top: auto;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+  padding: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* Grid styles */
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Utility */
+.none {
+  display: none !important;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Sticky Footer 2*/
+// html {
+//   height: 100%;
+// }
+
+// body {
+//   min-height: 100%;
+
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// main {
+//   flex-grow: 1;
+// }
